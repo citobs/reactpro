@@ -9,6 +9,7 @@
   max-height: 400px;
   min-width: 100px;
   z-index: 1;
+  background-color: white;
 }
 
 .product_rating {
@@ -20,6 +21,7 @@
   width: 100%;
   object-fit: contain;
   margin-bottom: 15px;
+  background-color: white;
 }
 
 .product > button {
