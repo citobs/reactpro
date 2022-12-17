@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.css";
 //search icon 불러오기
 import SearchIcon from "@mui/icons-material/Search";
+import { ShoppingBasket } from "@mui/icons-material";
 
 function Header() {
   return (
@@ -22,13 +23,20 @@ function Header() {
           <span className='header_optionLineOne'> 안녕하세요!</span>
           <span className='header_optionLineTwo'> login하기!</span>
         </div>
+
         <div className='header_option'>
           <span className='header_optionLineOne'> 돌아가기</span>
           <span className='header_optionLineTwo'> 주문내용</span>
         </div>
+
         <div className='header_option'>
           <span className='header_optionLineOne'> 반가워요</span>
           <span className='header_optionLineTwo'> 구독과좋아요</span>
+        </div>
+
+        <div className='header_optionBasket'>
+          <ShoppingBasket />
+          <span className='header_optionLineTwoheader_basketCount'>0</span>
         </div>
       </div>
     </div>
