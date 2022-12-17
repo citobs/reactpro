@@ -26,17 +26,5 @@ import Checkout from "./Checkout";
 //라우터 V5로 변신! npm install react-router-dom@5
 // V6삭제 npm uninstall react-router-dom
 //v6 예시(exact 삭제)
-// function App() {
-// return (
-// <Router>
-// <div className='App'>
-// <Routes>
-// <Route path='/' element={<Header />} />
-// <Route path='/' element={<Home />} />
 
-// <Route path='/checkout' element={<Header />} />
-// </Routes>
-// </div>
-// </Router>
-// );
-// }
+V6 사용법 익히기
