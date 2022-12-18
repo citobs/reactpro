@@ -3,6 +3,7 @@ import Header from "./Header";
 import Home from "./Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Checkout from "./Checkout";
+import Login from "./Login";
 
 //라우터 V6 switch 는 Routes로, component는 element로 바뀌었음
 //라우터 V5로 변신! npm install react-router-dom@5
@@ -14,6 +15,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
+          <Route path='login' element={<Login />} />
           <Route path='/' element={<Home />} />
           <Route path='/checkout' element={<Checkout />} />
         </Routes>
