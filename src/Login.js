@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { auth } from "./firebase";
 import "./Login.css";
 import { useStateValue } from "./StateProvider";
@@ -7,15 +7,49 @@ import { useStateValue } from "./StateProvider";
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+
+  //리액트V5에서는 const history = useHistory(); 였으나
+  //리액트 v6에서는 useHistory();삭제 , useNavigate로 대체
+  //v5코드예시
+
+  // const history = useHistory();
+
+  // history.push('/');
+  // history.goback();
+  // history.go(-2);
+  // history.push(`/user/${user._id}`);
+
+  //V6변경코드
+  // const navigate = useNavigate();
+  // navigate('/');
+  // navigate(-1);
+  // navigate(-2);
+  // navigate(`/user/${user._id}`);
+
+  const history = useNavigate();
+
   const signIn = (e) => {
     e.preventDefault();
+    auth
+      .signInWithEmailAndPassword(email, password)
+      .then((auth) => {
+        history("/");
+      })
+      .catch((error) => alert(error.message()));
   };
+
   const register = (e) => {
     e.preventDefault();
 
     auth
       .createUserWithEmailAndPassword(email, password)
-      .then((auth) => {})
+      .then((auth) => {
+        if (auth) {
+          //코드변경 기존코드는 history.push('/')
+          //리액트 라우터V6에서는 하단과같이 변경
+          history("/");
+        }
+      })
       .catch((error) => alert(error.message()));
   };
   return (

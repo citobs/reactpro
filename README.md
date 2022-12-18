@@ -70,4 +70,4 @@ import "firebase/compat/firestore";
 // import 'firebase/auth';
 // import 'firebase/firestore';
 
-// firebase 불러오는 코드
+12/20 05:38 로그인/로그아웃 기능 구현(파베연동)
