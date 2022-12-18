@@ -36,3 +36,5 @@ V6 사용법 익히기
 - 명령어 추가 : npm install react-currency-format --save --force
 
 12/18 21:53 일부 리듀스 완성(redux 사용일보직전)
+
+12/18 23:58 reducer 오류수정
