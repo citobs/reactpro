@@ -21,7 +21,24 @@ function Home() {
             rating={5}
           />
           <Product
-            id='232323'
+            id='2324111453'
+            title='제품입니다.'
+            price={30000}
+            image='http://drive.google.com/uc?export=view&id=1EL2wI1FNc7kSaKdP4BCKGnizk2DFnHWm'
+            rating={5}
+          />
+          <Product
+            id='23234333'
+            title='제품입니다.'
+            price={30000}
+            image='http://drive.google.com/uc?export=view&id=1EL2wI1FNc7kSaKdP4BCKGnizk2DFnHWm'
+            rating={5}
+          />
+        </div>
+
+        <div className='home_row'>
+          <Product
+            id='23234545423'
             title='제품입니다.'
             price={30000}
             image='http://drive.google.com/uc?export=view&id=1EL2wI1FNc7kSaKdP4BCKGnizk2DFnHWm'
@@ -38,31 +55,14 @@ function Home() {
 
         <div className='home_row'>
           <Product
-            id='232323'
+            id='233432323'
             title='제품입니다.'
             price={30000}
             image='http://drive.google.com/uc?export=view&id=1EL2wI1FNc7kSaKdP4BCKGnizk2DFnHWm'
             rating={5}
           />
           <Product
-            id='232323'
-            title='제품입니다.'
-            price={30000}
-            image='http://drive.google.com/uc?export=view&id=1EL2wI1FNc7kSaKdP4BCKGnizk2DFnHWm'
-            rating={5}
-          />
-        </div>
-
-        <div className='home_row'>
-          <Product
-            id='232323'
-            title='제품입니다.'
-            price={30000}
-            image='http://drive.google.com/uc?export=view&id=1EL2wI1FNc7kSaKdP4BCKGnizk2DFnHWm'
-            rating={5}
-          />
-          <Product
-            id='232323'
+            id='2323343434323'
             title='제품입니다.'
             price={30000}
             image='http://drive.google.com/uc?export=view&id=1EL2wI1FNc7kSaKdP4BCKGnizk2DFnHWm'
