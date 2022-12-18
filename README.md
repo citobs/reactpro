@@ -71,3 +71,7 @@ import "firebase/compat/firestore";
 // import 'firebase/firestore';
 
 12/20 05:38 로그인/로그아웃 기능 구현(파베연동)
+
+12/20 05:40 디플로이할수있게 압축하기(?) >npm run build
+
+12/20 05:54 firebase deploy 디플로이 완료!
