@@ -28,3 +28,9 @@ import Checkout from "./Checkout";
 //v6 예시(exact 삭제)
 
 V6 사용법 익히기
+
+12/18 20:05 리액트 링크 일부완성
+
+12/18 20:20 리액트 react-currency-format 설치안되는 거해결
+
+- 명령어 추가 : npm install react-currency-format --save --force
