@@ -75,3 +75,7 @@ import "firebase/compat/firestore";
 12/20 05:40 디플로이할수있게 압축하기(?) >npm run build
 
 12/20 05:54 firebase deploy 디플로이 완료!
+
+12/20 05:57 웹주소 추가
+
+- https://clone-d2b94.web.app/
