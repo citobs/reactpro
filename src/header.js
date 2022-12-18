@@ -11,7 +11,7 @@ function Header() {
       <Link to='/'>
         <img
           className='Header_logo'
-          src='http://drive.google.com/uc?export=view&id=19dTjrsZx_Z4gFhpXLDZygzTmD-XDZ6zE'
+          src='http://drive.google.com/uc?export=view&id=1ukI1IVH_-9wL1THXvzeNQ3gH0ZBgNzhD'
           alt='로고영역'
         />
       </Link>
