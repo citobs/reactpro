@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { auth } from "./firebase";
 import "./Login.css";
 import { useStateValue } from "./StateProvider";
 
@@ -11,6 +12,11 @@ function Login() {
   };
   const register = (e) => {
     e.preventDefault();
+
+    auth
+      .createUserWithEmailAndPassword(email, password)
+      .then((auth) => {})
+      .catch((error) => alert(error.message()));
   };
   return (
     <div className='login'>

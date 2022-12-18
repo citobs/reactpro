@@ -58,3 +58,16 @@ V6 사용법 익히기
 12/19 02:14 로그인기능추가시작
 
 12/19 04:13 로그인 기능완성 / firebase연동시작
+
+12/20 04:43 로그인 firebase 연동 성공!
+//firebase 버전별로 임포트 명령어가 다르다.(v9이상)
+import firebase from "firebase/compat/app";
+import "firebase/compat/auth";
+import "firebase/compat/firestore";
+
+//v8이하는
+// import firebase from 'firebase/app';
+// import 'firebase/auth';
+// import 'firebase/firestore';
+
+// firebase 불러오는 코드
