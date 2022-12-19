@@ -89,3 +89,12 @@ import "firebase/compat/firestore";
 12/19 14:09 결제완료기능구현제외(위험) // 나머지기능추가완료/ 미니프로젝트 최종종료!
 
 - web주소 변경 최종출시 : clone-d2b94.firebaseapp.com
+
+# firebase 배포방법
+
+- firebase login 으로 권한주기
+- firebase init으로 초기화 및 설정(hosting으로 설정)
+- SPA는 NO로 설정후 설치완료
+- 나의 앱에서 npm run build 실행
+- firebase deploy 실행
+- 표시된 앱주소로 접속
