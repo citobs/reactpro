@@ -59,7 +59,7 @@ V6 사용법 익히기
 
 12/19 04:13 로그인 기능완성 / firebase연동시작
 
-12/20 04:43 로그인 firebase 연동 성공!
+12/19 04:43 로그인 firebase 연동 성공!
 //firebase 버전별로 임포트 명령어가 다르다.(v9이상)
 import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
@@ -70,12 +70,16 @@ import "firebase/compat/firestore";
 // import 'firebase/auth';
 // import 'firebase/firestore';
 
-12/20 05:38 로그인/로그아웃 기능 구현(파베연동)
+12/19 05:38 로그인/로그아웃 기능 구현(파베연동)
 
-12/20 05:40 디플로이할수있게 압축하기(?) >npm run build
+12/19 05:40 디플로이할수있게 압축하기(?) >npm run build
 
-12/20 05:54 firebase deploy 디플로이 완료!
+12/19 05:54 firebase deploy 디플로이 완료!
 
-12/20 05:57 웹주소 추가
+12/19 05:57 웹주소 추가
 
 - https://clone-d2b94.web.app/
+
+12/19 결제하기 기능추가완료/서버연동 시작
+
+- 서버연동 : npm i @stripe/stripe-js --force --save
