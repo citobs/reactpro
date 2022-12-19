@@ -78,7 +78,7 @@ import "firebase/compat/firestore";
 
 12/19 05:57 웹주소 추가
 
-- https://clone-d2b94.web.app/
+- clone-d2b94.firebaseapp.com
 
 12/19 13:59 결제하기 기능추가완료/서버연동 시작
 
@@ -87,3 +87,5 @@ import "firebase/compat/firestore";
 - 두 번다 설치해야한다!
 
 12/19 14:09 결제완료기능구현제외(위험) // 나머지기능추가완료/ 미니프로젝트 최종종료!
+
+- web주소 변경 최종출시 : clone-d2b94.firebaseapp.com
