@@ -80,8 +80,10 @@ import "firebase/compat/firestore";
 
 - https://clone-d2b94.web.app/
 
-12/19 결제하기 기능추가완료/서버연동 시작
+12/19 13:59 결제하기 기능추가완료/서버연동 시작
 
 - 서버연동 : 1) npm i @stripe/stripe-js --force --save
 -             2) npm i @stripe/react-stripe-js --force --save
 - 두 번다 설치해야한다!
+
+12/19 14:09 결제완료기능구현제외(위험) // 나머지기능추가완료/ 미니프로젝트 최종종료!
